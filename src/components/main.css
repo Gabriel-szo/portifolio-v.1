@@ -1,0 +1,9 @@
+.main{
+    background-color: #27374D;
+
+    width:770px ;
+    height: 800px;
+}
+.main-title{
+    display: flex;
+}

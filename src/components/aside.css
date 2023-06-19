@@ -5,6 +5,7 @@
     align-items: center;
     width: 402px;
     height: 900px;
+    border-radius: 15px;
 }
 .img-box{
     background-color:#9DB2BF ;
@@ -20,8 +21,8 @@
     width: 200px;
     height: 50px;
 }
-.icon{
-    background-color: #27374D;
+.icons{
+    background-color: #9DB2BF;
     padding: 15px;
     border-radius: 15px;
     display: flex;
@@ -40,10 +41,20 @@
     margin-top: 20px;
     background-color: #9DB2BF;
     padding: 10px;
+        border-radius: 15px;
 }
 .box-item{
     display: flex;
     padding: 10px;
+
+}
+.icon{
+    background-color: #27374D;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 20px;
 }
 .item{
     margin: 5px;
