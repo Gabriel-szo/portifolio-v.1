@@ -1,25 +1,24 @@
 .aside{
-    background-color:#27374D ;
+    background-color:#526D82 ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 402px;
-    height: 900px;
     border-radius: 15px;
+    padding: 20px;
 }
 .img-box{
     background-color:#9DB2BF ;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
+    border-radius: 50%;
 }
 .group-icons{
     display: flex;
     margin-top: 20px;
     align-items: center;
     justify-content: space-evenly;
-    width: 200px;
-    height: 50px;
+    width: 90%;
 }
 .icons{
     background-color: #9DB2BF;
@@ -27,21 +26,23 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    height: 20px;
 
 }
 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
     background-color: #9DB2BF;
-    width: 250px;
-    text-align: center;
+    width:80% ;
     border-radius: 15px;
+    height: 6%;
 }
 .box{
     margin-top: 20px;
     background-color: #9DB2BF;
     padding: 10px;
-        border-radius: 15px;
+    border-radius: 15px;
 }
 .box-item{
     display: flex;
@@ -54,15 +55,17 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    height: 20px;
 }
 .item{
     margin: 5px;
 }
 .curriculum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
     background-color: #9DB2BF;
-    width: 250px;
-    text-align: center;
+    width:80% ;
     border-radius: 15px;
+    height: 6%;
 }

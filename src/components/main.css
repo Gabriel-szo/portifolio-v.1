@@ -1,9 +1,57 @@
 .main{
-    background-color: #27374D;
-
-    width:770px ;
-    height: 800px;
+    background-color: #526D82;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
 }
 .main-title{
     display: flex;
+    justify-content: center;
 }
+.sobre{
+    background-color: #9DB2BF;
+    margin: 20px;
+}
+.habilidades{
+    background-color: #9DB2BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.container-item{
+    height: 100px;
+    border: 1px solid black;
+    width: 30%;
+    margin:10px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.footer-btn{
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 20%;
+    padding: 20px;
+    background-color:#9DB2BF;
+    transition: 0.5s;
+}
+.footer-btn:hover{
+    background-color: #27374D;
+
+    transition: 0.5s;
+
+}
+
+

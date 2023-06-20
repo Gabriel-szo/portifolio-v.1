@@ -7,7 +7,7 @@ const Main = () => {
       <div className="main-title">
         <h1>Sobre</h1>
       </div>
-      <div className="container-1">
+      <div className="sobre">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum numquam
           optio quod laudantium vitae ullam suscipit unde alias quisquam,
@@ -19,17 +19,20 @@ const Main = () => {
       <div className="main-title">
         <h1>Habilidades</h1>
       </div>
-      <div className="container-2">
-        <div className="container-item"></div>
-        <div className="container-item"></div>
-        <div className="container-item"></div>
-        <div className="container-item"></div>
-        <div className="container-item"></div>
-        <div className="container-item"></div>
+      <div className="habilidades">
+        <div className="container-item">HTML</div>
+        <div className="container-item">CSS</div>
+        <div className="container-item">JS</div>
+        <div className="container-item">REACTJS</div>
+        <div className="container-item">BOOTSTRAP</div>
+        <div className="container-item">FIGMA</div>
+        <div className="container-item">PHP</div>
+        <div className="container-item">NODE</div>
+        <div className="container-item">NODE</div>
       </div>
-        <div className="others">
-            <div className="projetos">Projetos</div>
-            <div className="contato">Contato</div>
+        <div className="footer">
+            <div className="footer-btn">Projetos</div>
+            <div className="footer-btn">Contato</div>
         </div>
     </div>
   );
